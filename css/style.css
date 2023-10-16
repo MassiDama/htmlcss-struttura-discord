@@ -42,15 +42,87 @@ header {
 
     /* debug */
     background-color: hsl(300deg 76.22% 71.96%);
-    min-width: 60%;
+    min-width: 50%;
     margin: 40px;
 }
 
     /* stili blocco main */
 .sfondo-bianco {
+    display: flex;
+    justify-content: center;
     
+    /* debug */
+    background-color: white;
+    min-height: 500px;
 }
 
+.azzurro {
 
+    /* debug */
+    background-color: hsl(209.47deg 100% 55.69%);
+    min-width: 40%;
+    margin: 40px 0;
+}
 
+.pink {
 
+     /* debug */
+     background-color: hsl(350.32deg 100% 87.84%);
+     min-width: 25%;
+     margin: 40px 0;
+}
+
+.sfondo-grigio {
+    display: flex;
+    justify-content: center;
+    
+    
+    /* debug */
+    background-color: hsl(0, 0%, 90%);
+    min-height: 500px;
+}
+
+.sfondo-grigio .pink {
+    order: -1;
+}
+
+.grigio-grande {
+    display: flex;
+    justify-content: center;
+    
+    /* debug */
+    background-color: hsl(0, 0%, 90%);
+    min-height: 800px;
+}
+
+.verde {
+    /* debug */
+    background-color: hsl(118.87deg 61.63% 33.73%);
+    min-width: 65%;
+    margin: 40px 0;
+}
+
+.sfondo-nero {
+    display: flex;
+    justify-content: center;
+    
+    
+    /* debug */
+    background-color: hsl(205.71deg 9.09% 15.1%);
+    min-height: 500px;
+}
+
+.rosa-scuro {
+    /* debug */
+    background-color: hsl(0deg 78.87% 72.16%);
+    min-width: 25%;
+    margin: 40px 0;
+}
+
+.celeste {
+    /* debug */
+    background-color: hsl(176.69deg 68.72% 41.37%);
+    min-width: 10%;
+    margin: 40px 0;
+    border: 1px solid white;
+}
