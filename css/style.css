@@ -1,0 +1,56 @@
+/* stili generali pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* stili struttura header */
+header {
+    display: flex;
+    justify-content: center;
+    /* debug */
+    background-color: hsl(194.74deg 53.27% 79.02%);
+    min-height: 50px;
+    margin-top: 0;
+    
+   
+}
+
+.nav-header {
+   
+    /* debug */
+    background-color: hsl(42.81deg 73.71% 49.22%);
+    margin: 15px;
+    min-width: 75%;
+    padding: 15px;   
+}
+
+/* stili main */
+
+   /* sezione titolo */
+#section-title {
+    display: flex;
+    justify-content: center;
+    
+    /* debug */
+    background-color: hsl(240deg 100% 27.25%);
+    min-height: 400px;
+}
+
+.main-title {
+
+    /* debug */
+    background-color: hsl(300deg 76.22% 71.96%);
+    min-width: 60%;
+    margin: 40px;
+}
+
+    /* stili blocco main */
+.sfondo-bianco {
+    
+}
+
+
+
+
